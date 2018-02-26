@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahitler_fcked_my_dog.myapplication">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launch_ic"
+        android:label="Lucky Ticket"
+        android:roundIcon="@mipmap/launch_ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameStarts" />
+        <activity android:name=".LeveSetNumber" />
+        <activity android:name=".ChooseRightTicket" />
+        <activity android:name=".TopScores" />
+        <activity android:name=".GamePicker" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>
